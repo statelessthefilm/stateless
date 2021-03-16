@@ -693,6 +693,7 @@ body {
 	text-align:center;
 	cursor:pointer;
 	z-index:50;
+	margin-top: 100px;
     border: 2px solid #fb0000;
 	display: none;
     color: #fff;
