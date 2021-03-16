@@ -2894,21 +2894,7 @@ position:absolute;
 .pagination ul .next a {
 	padding: 10px 24px;
 }
-.form{
-	padding: 85px 0px;
-    background: #3c3c3c;
-}
-.form .container{
-	text-align: center;
-    padding: 40px;
-}
-.form-control{
-	padding: 25px 160px 25px 15px;
-}
-.form .form-group{
-	padding-right: 30px;
-	padding-left: 30px;
-}
+
 
 /*  16 - 03 Page 404
 -----------------------------------------------------------*/
@@ -2962,3 +2948,18 @@ position:absolute;
 
 /*  18 - Your CSS Code
 -----------------------------------------------------------*/
+.form{
+	padding: 85px 0px;
+    background: #3c3c3c;
+}
+.form .container{
+	text-align: center;
+    padding: 40px;
+}
+.form-control{
+	padding: 25px 160px 25px 15px;
+}
+.form .form-group{
+	padding-right: 30px;
+	padding-left: 30px;
+}
