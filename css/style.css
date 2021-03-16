@@ -694,7 +694,7 @@ body {
 	text-align:center;
 	cursor:pointer;
 	z-index:50;
-	margin-top: 100px;
+	/* margin-top: 100px !important; */
     border: 2px solid #fb0000;
 	display: none;
     color: #fff;
@@ -865,7 +865,7 @@ body {
     top: 12.5%;
     left: 0;
     width: 99%;
-    height: 90vh;
+    height: 45vh;
     outline: 0px;
     right: 0;
     margin: auto;
