@@ -1184,8 +1184,8 @@ h1.section-title:after{
 	height: 2px;
 	background: #fb0000;
 	left: 50%;
-	margin-left: -20px;
-	margin-top: 26px;
+	margin-left: -36px;
+	margin-top: 20px;
 }
 
 h2, .h2 {
@@ -2203,6 +2203,14 @@ h2, .h2 {
 	color: #fb0000;
 }
 
+/* Subscribe section */
+
+.sumbtn{
+	width: 130px;
+    padding: 13px;
+}
+
+
 
 /*	14 - Contact Section
 -----------------------------------------------------------*/
@@ -2886,7 +2894,21 @@ position:absolute;
 .pagination ul .next a {
 	padding: 10px 24px;
 }
-
+.form{
+	padding: 85px 0px;
+    background: #3c3c3c;
+}
+.form .container{
+	text-align: center;
+    padding: 40px;
+}
+.form-control{
+	padding: 25px 160px 25px 15px;
+}
+.form .form-group{
+	padding-right: 30px;
+	padding-left: 30px;
+}
 
 /*  16 - 03 Page 404
 -----------------------------------------------------------*/
