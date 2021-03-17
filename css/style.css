@@ -1462,15 +1462,8 @@ h2, .h2 {
 /*	08 - Movie-Player Section
 -----------------------------------------------------------*/
 .btn-youtube{
-	
-	height: 80px;
-    width: 100%;
-    margin-bottom: 30px;
     text-align: center;
-    border: 1px solid red;
     padding: 23px;
-    font-size: 20px;
-    background: red;
 }
 .btn-youtube a{
 	color: white;
