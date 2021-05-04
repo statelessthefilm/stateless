@@ -1464,7 +1464,9 @@ h2, .h2 {
 /*	08 - Movie-Player Section
 -----------------------------------------------------------*/
 .vid_player{
-	margin: 120px 350px 0px 350px;
+	margin: 120px auto 0px auto;
+    width: 100%;
+    text-align: center;
 }
 .btn-youtube{
     text-align: center;
