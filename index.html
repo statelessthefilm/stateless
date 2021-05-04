@@ -111,7 +111,7 @@
 
             <div class="media-btns buttons page-scroll">
                 <div class="btn btn-default play-btn" id="play-button">Play Trailer<i class="fa fa-play animated"></i></div>
-                <div class="btn btn-default pause-btn" traget=".player .vp-controls .play.state-paused .pause-icon" id="pause-button">Stop Trailer<i class="fa fa-pause animated"></i></div>
+                <div class="btn btn-default pause-btn" id="pause-button">Stop Trailer<i class="fa fa-pause animated"></i></div>
                 <a class="btn btn-default about-btn" href="#about">More Info<i class="fa fa-chevron-right"></i></a>
             </div>
 
@@ -120,10 +120,14 @@
        
 
         <div class="video-container">
-            <div id="player"><iframe title="vimeo-player" src="https://player.vimeo.com/video/542574129" allow="autoplay"width="640" height="360" frameborder="0" allowfullscreen></iframe></div>
+            <div class="vid_player" id="player">
+                <video width="800px" src="./img/video/STATELESS Official Trailer.mp4" controls>
+                </video>
+                
+                <!-- <iframe title="vimeo-player" src="https://player.vimeo.com/video/542574129" allow="autoplay"width="640" height="360" frameborder="0" allowfullscreen></iframe></div> -->
+            </div>
         </div>
-        </div>
-
+    </div>
     </section><!-- /#intro --> 
     
 
