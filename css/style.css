@@ -807,13 +807,14 @@ body {
 
 .video-container {
 	position: relative;
-	padding-bottom: 56.25%;
-	padding-top: 20px;
-	height: 0;
-	overflow: hidden;
-	outline: 0px;
-	border:none;
-	height: 100vh;
+    /* padding-bottom: 56.25%; */
+    padding-top: 20px;
+    /* height: 0; */
+    overflow: hidden;
+    outline: 0px;
+    border: none;
+    /* height: 100vh; */
+    z-index: 99;
 }
 
 .video-container iframe,.video-container object,.video-container embed {
@@ -1462,6 +1463,9 @@ h2, .h2 {
 
 /*	08 - Movie-Player Section
 -----------------------------------------------------------*/
+.vid_player{
+	margin: 120px 350px 0px 350px;
+}
 .btn-youtube{
     text-align: center;
     padding: 23px;
