@@ -1468,6 +1468,9 @@ h2, .h2 {
     width: 100%;
     text-align: center;
 }
+.vid{
+	width: 800px;
+}
 .btn-youtube{
     text-align: center;
     padding: 23px;
@@ -1539,6 +1542,9 @@ h2, .h2 {
 	.embed-responsive iframe {
 		min-height: 320px;
 		width: 100%;
+	}
+	.vid{
+		width: 300px;
 	}
 }
 
