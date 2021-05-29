@@ -335,7 +335,7 @@ var clock;
 	var currentDate = new Date();
 
 	// Set some date in the future. In this case, it's always Jan 1
-	futureDate = new Date("May 29, 2021 08:00:00")
+	futureDate = new Date("0")
 
 	// Calculate the difference in seconds between the future and current date
 	var diff = futureDate.getTime() / 0 - currentDate.getTime() / 0;
