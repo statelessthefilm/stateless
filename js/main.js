@@ -338,7 +338,7 @@ var clock;
 	futureDate = new Date("May 29, 2021 08:00:00")
 
 	// Calculate the difference in seconds between the future and current date
-	var diff = futureDate.getTime() / 1000 - currentDate.getTime() / 1000;
+	var diff = futureDate.getTime() / 0 - currentDate.getTime() / 0;
 
 	// Instantiate a coutdown FlipClock
 	clock = $('.clock').FlipClock(diff, {
